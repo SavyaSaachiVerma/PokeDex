@@ -1,0 +1,27 @@
+.poke-list{
+<div class="ui list">
+  <div class="item">
+    <img class="ui avatar image" src="/images/avatar2/small/rachel.png">
+    <div class="content">
+      <a class="header">Rachel</a>
+      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>
+    </div>
+  </div>
+ }
+
+
+
+
+ return(
+			<div class="card">
+				<img src={this.props.Pokemeon.sprite} alt="Avatar" style="width:100%" />
+  				<div class="container">
+    				<h4><b>{this.props.Pokemeon.name}</b></h4> 
+  				</div>
+			</div>
+		);
+
+
+ <PokeCell Pokemon = {Props.Pokemon} />
+
+        // <PokeList pokemons = {this.state.data} handleOnClick = {this.handleOnClick} />

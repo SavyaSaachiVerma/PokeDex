@@ -1,0 +1,9 @@
+input{
+height: 35px;
+width: 200px;
+}
+
+.cont{
+	display:flex;
+	justify-content: space-around;
+}
